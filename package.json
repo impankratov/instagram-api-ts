@@ -1,0 +1,39 @@
+{
+  "name": "instagram-api-ts",
+  "version": "0.0.0",
+  "description": "Simple client for using Instagram's API endpoints. Written in typescript",
+  "main": "lib/index.js",
+  "typings": "lib/index",
+  "scripts": {
+    "start": "tsc",
+    "test": "tsc --p tsconfig.test.json && mocha lib/index.spec.js",
+    "dev-test-watch": "mocha-typescript-watch -p tsconfig.test.json lib/index.spec.js",
+    "mocha": "mocha"
+  },
+  "keywords": [
+    "instagram",
+    "api",
+    "typescript"
+  ],
+  "author": "Ivan Pankratov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.39",
+    "@types/nock": "^8.2.0",
+    "@types/request": "0.0.39",
+    "@types/request-promise-native": "^1.0.2",
+    "@types/sinon": "^1.16.34",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mocha-typescript": "^1.0.18",
+    "nock": "^9.0.2",
+    "sinon": "^1.17.7",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3"
+  }
+}
