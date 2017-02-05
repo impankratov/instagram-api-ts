@@ -1,6 +1,6 @@
 {
   "name": "instagram-api-ts",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple client for using Instagram's API endpoints. Written in typescript",
   "main": "lib/index.js",
   "typings": "lib/index",
