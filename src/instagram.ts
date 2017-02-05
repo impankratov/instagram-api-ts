@@ -37,6 +37,17 @@ export default class Instagram {
       .catch(err => err);
   }
 
+  
+  /**
+   * Check wether object is Instagram API error.
+   * If it returns true, you could set EnvelopeError type for this object
+   * You can use it in .catch() blocks for any request.
+   * 
+   * @param {*} err
+   * @returns {boolean}
+   * 
+   * @memberOf Instagram
+   */
   public isInstagramError(err: any): boolean {
     const keys = err.meta
       && err.meta.code
