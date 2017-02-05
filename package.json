@@ -15,7 +15,7 @@
     "api",
     "typescript"
   ],
-  "author": "Ivan Pankratov",
+  "author": "Ivan Pankratov <im.pankratov@ya.ru>",
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^3.4.34",
