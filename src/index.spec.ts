@@ -1,8 +1,8 @@
 import { assert } from 'chai';
 import * as nock from 'nock';
 
-import { Instagram } from './index';
-import { Envelope } from './interfaces';
+import Instagram from './index';
+import { Envelope } from './index';
 
 describe('Instagram', () => {
   it('should be a class', () => {

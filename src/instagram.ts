@@ -2,14 +2,14 @@ import * as requestPromise from 'request-promise-native';
 import { RequestPromiseOptions, RequestPromise } from 'request-promise-native';
 import { RequestAPI, RequiredUriUrl } from 'request';
 
-import { Options, Envelope, EnvelopeError } from './interfaces';
+import { Options, Envelope, EnvelopeError } from './index';
 
 /**
  * Instagram
  */
-export class Instagram {
+export default class Instagram {
   private rp: RequestAPI<RequestPromise, RequestPromiseOptions, RequiredUriUrl>;
-  public base: string = 'https://api.instagram.com/v1/';
+  public base: string = `https://api.instagram.com/v1/`;
   public accessToken: string;
   public clientId: string;
 
