@@ -11,6 +11,6 @@
         "preserveConstEnums": true
     },
     "files": [
-      "./src/**/*.ts"
+      "./src/index.ts"
     ]
 }
